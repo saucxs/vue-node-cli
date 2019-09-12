@@ -1,5 +1,3 @@
-console.log(process.argv);
-
 const path = require('path');   //路径
 const download = require('download-git-repo');  //下载
 const program = require('commander');
@@ -10,19 +8,15 @@ const exists = require('fs').existsSync;
 const ora = require('ora');    //视觉美化
 const inquirer = require('inquirer');   // 交互
 
-
 //查看版本号
 program
-  .version('1.0.0')
-
+    .version('1.0.0')
 /*
  * usage & format arguments
  * */
 program
     .usage('<template-name> <project-name>')
     .parse(process.argv);
-
-
 /*
  help
  */
@@ -33,7 +27,6 @@ program.on('--help', function () {
     console.log(chalk.green('   $ saucxs init website my-project or $ saucxs init vue my-project'))
     console.log()
 });
-
 
 /*
  * hint

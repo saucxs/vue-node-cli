@@ -11,5 +11,5 @@ npm i vue-node-cli -g
 ```js
 vue-node-cli init structure-admin my-project
 ```
-+ structure-admin：是使用的vue和thinkjs的构建项目的全栈项目的构建体系
++ structure-admin：是使用的vue和thinkjs的构建项目的全栈项目的构建体系的模板
 + my-project：是自己命名的项目名称
