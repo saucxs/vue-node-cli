@@ -73,6 +73,7 @@ if (exists(to)) {
 function run() {
     const spinner = ora('downloading template')
     if (exists(to)) rm(to);
+    spinner.start()
     download(`saucxs/${template}`, to, {clone: false}, function (err) {
         spinner.stop()
         if (err) {
