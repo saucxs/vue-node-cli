@@ -1,7 +1,7 @@
 {
   "name": "vue-node-cli",
   "version": "1.0.0",
-  "description": "vue-node-cli",
+  "description": "vue-node-cli拥有vue和thinkjs构建项目的脚手架;前端vue+vuex;后端是node的thinkjs框架，带有mysql数据库文件。",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
