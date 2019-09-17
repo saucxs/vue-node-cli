@@ -9,7 +9,7 @@ npm i vue-node-cli -g
 
 ### 2、使用
 ```js
-vue-node-cli structure-admin my-project
+vue-node init structure-admin my-project
 ```
 + structure-admin：是使用的vue和thinkjs的构建项目的全栈项目的构建体系的模板
 + my-project：是自己命名的项目名称
